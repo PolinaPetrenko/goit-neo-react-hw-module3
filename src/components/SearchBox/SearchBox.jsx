@@ -11,7 +11,7 @@ const SearchBox = ({filter, setFilter, filteredContacts}) => {
         placeholder="Search contacts..."
       ></input>
       {filteredContacts.length === 0 && (
-        <p className={css.searchMessage}>No contacts found 😔</p>
+        <p className={css.searchMessage}>No contacts found </p>
       )}
     </div>
   );
